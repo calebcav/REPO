@@ -16,6 +16,10 @@
 		38222C6024A298C400F43E8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38222C5F24A298C400F43E8A /* main.m */; };
 		38222C6A24A298C400F43E8A /* Tip_CalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38222C6924A298C400F43E8A /* Tip_CalcTests.m */; };
 		38222C7524A298C400F43E8A /* Tip_CalcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38222C7424A298C400F43E8A /* Tip_CalcUITests.m */; };
+		38222C8424A2BE3F00F43E8A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38222C8324A2BE3F00F43E8A /* SettingsViewController.m */; };
+		38222C8824A2DB8C00F43E8A /* icons8-settings-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 38222C8524A2DB8B00F43E8A /* icons8-settings-50.png */; };
+		38222C8924A2DB8C00F43E8A /* icons8-settings-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 38222C8624A2DB8B00F43E8A /* icons8-settings-100.png */; };
+		38222C8A24A2DB8C00F43E8A /* icons8-settings-150.png in Resources */ = {isa = PBXBuildFile; fileRef = 38222C8724A2DB8B00F43E8A /* icons8-settings-150.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,11 @@
 		38222C7024A298C400F43E8A /* Tip CalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38222C7424A298C400F43E8A /* Tip_CalcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tip_CalcUITests.m; sourceTree = "<group>"; };
 		38222C7624A298C400F43E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38222C8224A2BE3F00F43E8A /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		38222C8324A2BE3F00F43E8A /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		38222C8524A2DB8B00F43E8A /* icons8-settings-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-settings-50.png"; path = "../../Downloads/Settings.imageset/icons8-settings-50.png"; sourceTree = "<group>"; };
+		38222C8624A2DB8B00F43E8A /* icons8-settings-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-settings-100.png"; path = "../../Downloads/Settings.imageset/icons8-settings-100.png"; sourceTree = "<group>"; };
+		38222C8724A2DB8B00F43E8A /* icons8-settings-150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-settings-150.png"; path = "../../Downloads/Settings.imageset/icons8-settings-150.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +97,9 @@
 				38222C6824A298C400F43E8A /* Tip CalcTests */,
 				38222C7324A298C400F43E8A /* Tip CalcUITests */,
 				38222C4B24A298C300F43E8A /* Products */,
+				38222C8524A2DB8B00F43E8A /* icons8-settings-50.png */,
+				38222C8624A2DB8B00F43E8A /* icons8-settings-100.png */,
+				38222C8724A2DB8B00F43E8A /* icons8-settings-150.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +123,8 @@
 				38222C5324A298C300F43E8A /* ViewController.h */,
 				38222C5424A298C300F43E8A /* ViewController.m */,
 				38222C5624A298C300F43E8A /* Main.storyboard */,
+				38222C8224A2BE3F00F43E8A /* SettingsViewController.h */,
+				38222C8324A2BE3F00F43E8A /* SettingsViewController.m */,
 				38222C5924A298C400F43E8A /* Assets.xcassets */,
 				38222C5B24A298C400F43E8A /* LaunchScreen.storyboard */,
 				38222C5E24A298C400F43E8A /* Info.plist */,
@@ -240,9 +254,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38222C8924A2DB8C00F43E8A /* icons8-settings-100.png in Resources */,
 				38222C5D24A298C400F43E8A /* LaunchScreen.storyboard in Resources */,
+				38222C8824A2DB8C00F43E8A /* icons8-settings-50.png in Resources */,
 				38222C5A24A298C400F43E8A /* Assets.xcassets in Resources */,
 				38222C5824A298C300F43E8A /* Main.storyboard in Resources */,
+				38222C8A24A2DB8C00F43E8A /* icons8-settings-150.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +286,7 @@
 			files = (
 				38222C5524A298C300F43E8A /* ViewController.m in Sources */,
 				38222C4F24A298C300F43E8A /* AppDelegate.m in Sources */,
+				38222C8424A2BE3F00F43E8A /* SettingsViewController.m in Sources */,
 				38222C6024A298C400F43E8A /* main.m in Sources */,
 				38222C5224A298C300F43E8A /* SceneDelegate.m in Sources */,
 			);
